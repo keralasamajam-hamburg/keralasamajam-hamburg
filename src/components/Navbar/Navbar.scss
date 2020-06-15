@@ -1,0 +1,111 @@
+@import '../../styles/breakpoints.scss';
+
+.navbar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  .ant-menu {
+    background: #ffffffba;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 20px 0px #e2e2e2;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include tablet {
+      justify-content: center;
+    }
+
+    .ant-menu-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70px;
+      font-size: 15px;
+      font-weight: 600;
+
+    }
+    .anticon-menu {
+      margin: auto;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ant-menu-submenu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .ant-menu-overflowed-submenu {
+      .ant-menu-submenu-title {
+        padding: 0px !important;
+      }
+    }
+  }
+}
+
+.ant-menu-submenu-popup {
+  background: transparent !important;
+  .ant-menu {
+    border-radius: 0 0 20px 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+    .ant-menu-item {
+      min-height: 50px;
+    }
+  }
+}
+
+.ant-drawer {
+  .ant-menu {
+    height: 100% !important;
+    .ant-menu-item {
+      justify-content: flex-start !important;
+      align-items: center !important;
+      padding-left: 0 !important;
+      min-height: 70px;
+      display: flex;
+    }
+    .ant-menu-submenu {
+      min-height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start !important;
+      align-items: center !important;
+
+      .ant-menu-item {
+        padding-left: 24px !important;
+      }
+    }
+
+    .ant-menu-submenu-title {
+      justify-content: flex-start !important;
+      padding-left: 0 !important;
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .ant-menu-inline {
+    border-right: 0 !important;
+  }
+
+  .anticon {
+    font-size: 30px !important;
+    margin: 0 15px !important;
+  }
+  .ant-menu-submenu-title {
+    display: flex;
+    justify-content: center;
+  }
+}

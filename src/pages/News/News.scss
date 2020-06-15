@@ -1,0 +1,58 @@
+@import '../../styles/breakpoints.scss';
+.news {
+  @include animateEnter();
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @include tablet {
+    width: 70%;
+    margin: auto;
+  }
+
+  .ant-card {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 20px 10px;
+    .ant-card-cover {
+      width: 150px;
+      min-width: 150px;
+      max-height: 150px;
+      min-height: 150px;
+
+      img {
+        object-fit: contain;
+        height: 100%;
+      }
+
+      @include tablet {
+        width: 250px;
+        min-width: 250px;
+      }
+    }
+    .ant-card-body {
+      display: flex;
+      align-items: center;
+
+      padding: 10px;
+      width: calc(100% - 150px);
+      @include tablet {
+        padding: 30px;
+        width: calc(100% - 250px);
+      }
+
+      .ant-card-meta-title {
+        font-weight: 800;
+        font-size: 14px;
+        white-space: break-spaces;
+        @include tablet {
+          font-size: 20px;
+        }
+      }
+      .ant-card-meta-description {
+        font-weight: 600;
+      }
+    }
+  }
+}

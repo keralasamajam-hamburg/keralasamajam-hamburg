@@ -1,0 +1,64 @@
+@import '../../styles/breakpoints.scss';
+
+.dynamicContent {
+  @include animateEnter();
+
+  .ant-carousel {
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 350px;
+      @include tablet {
+        height: 700px;
+      }
+    }
+
+    h5 {
+      bottom: 4rem;
+      margin: auto;
+      color: white;
+      position: absolute;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 50px;
+      text-shadow: 1px 1px 10px #000000;
+      @include tablet {
+        font-size: 4.5rem;
+      }
+    }
+  }
+
+  .locale-switch {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 33px;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: -4rem;
+
+    width: 100%;
+    @include tablet {
+      width: 70%;
+    }
+
+    span {
+      cursor: pointer;
+      padding-bottom: 0.2rem;
+
+      &:hover {
+        border-bottom: solid 1px #dadada;
+      }
+      
+      &.active {
+        color: #1da57a;
+        border-bottom: solid 1px #1DA57A;
+      }
+    }
+
+    .ant-divider-vertical {
+      height: 1.9em !important;
+      border-left: 3px solid #f0f0f0 !important;
+    }
+  }
+}
