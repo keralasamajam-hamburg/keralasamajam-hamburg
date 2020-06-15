@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kerala-samajam/static/css/main.e391308d.chunk.css",
+    "main.js": "/kerala-samajam/static/js/main.ed3336d7.chunk.js",
+    "main.js.map": "/kerala-samajam/static/js/main.ed3336d7.chunk.js.map",
+    "runtime-main.js": "/kerala-samajam/static/js/runtime-main.b6b748db.js",
+    "runtime-main.js.map": "/kerala-samajam/static/js/runtime-main.b6b748db.js.map",
+    "static/js/2.a7b6b48f.chunk.js": "/kerala-samajam/static/js/2.a7b6b48f.chunk.js",
+    "static/js/2.a7b6b48f.chunk.js.map": "/kerala-samajam/static/js/2.a7b6b48f.chunk.js.map",
+    "index.html": "/kerala-samajam/index.html",
+    "precache-manifest.9d42f25d05371a0f745222301f95422c.js": "/kerala-samajam/precache-manifest.9d42f25d05371a0f745222301f95422c.js",
+    "service-worker.js": "/kerala-samajam/service-worker.js",
+    "static/css/main.e391308d.chunk.css.map": "/kerala-samajam/static/css/main.e391308d.chunk.css.map",
+    "static/js/2.a7b6b48f.chunk.js.LICENSE.txt": "/kerala-samajam/static/js/2.a7b6b48f.chunk.js.LICENSE.txt",
+    "static/media/ksh.png": "/kerala-samajam/static/media/ksh.b95d8e30.png",
+    "static/media/news-announcement.jpg": "/kerala-samajam/static/media/news-announcement.6117f73b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6b748db.js",
+    "static/js/2.a7b6b48f.chunk.js",
+    "static/css/main.e391308d.chunk.css",
+    "static/js/main.ed3336d7.chunk.js"
+  ]
+}
