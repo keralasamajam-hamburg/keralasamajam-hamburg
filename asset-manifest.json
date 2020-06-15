@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e391308d.chunk.css",
-    "main.js": "/static/js/main.57afcb23.chunk.js",
-    "main.js.map": "/static/js/main.57afcb23.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0bc2e92a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0bc2e92a.js.map",
-    "static/js/2.0c169f85.chunk.js": "/static/js/2.0c169f85.chunk.js",
-    "static/js/2.0c169f85.chunk.js.map": "/static/js/2.0c169f85.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0422cf81b502a45c6c3e29572bab9a8f.js": "/precache-manifest.0422cf81b502a45c6c3e29572bab9a8f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e391308d.chunk.css.map": "/static/css/main.e391308d.chunk.css.map",
-    "static/js/2.0c169f85.chunk.js.LICENSE.txt": "/static/js/2.0c169f85.chunk.js.LICENSE.txt",
-    "static/media/ksh.png": "/static/media/ksh.b95d8e30.png",
-    "static/media/news-announcement.jpg": "/static/media/news-announcement.6117f73b.jpg"
+    "main.css": "/keralasamajam-hamburg/static/css/main.e391308d.chunk.css",
+    "main.js": "/keralasamajam-hamburg/static/js/main.a9149c62.chunk.js",
+    "main.js.map": "/keralasamajam-hamburg/static/js/main.a9149c62.chunk.js.map",
+    "runtime-main.js": "/keralasamajam-hamburg/static/js/runtime-main.8c6a49b9.js",
+    "runtime-main.js.map": "/keralasamajam-hamburg/static/js/runtime-main.8c6a49b9.js.map",
+    "static/js/2.77c9611a.chunk.js": "/keralasamajam-hamburg/static/js/2.77c9611a.chunk.js",
+    "static/js/2.77c9611a.chunk.js.map": "/keralasamajam-hamburg/static/js/2.77c9611a.chunk.js.map",
+    "index.html": "/keralasamajam-hamburg/index.html",
+    "precache-manifest.b592012093d44b6caea553482a9c1a5f.js": "/keralasamajam-hamburg/precache-manifest.b592012093d44b6caea553482a9c1a5f.js",
+    "service-worker.js": "/keralasamajam-hamburg/service-worker.js",
+    "static/css/main.e391308d.chunk.css.map": "/keralasamajam-hamburg/static/css/main.e391308d.chunk.css.map",
+    "static/js/2.77c9611a.chunk.js.LICENSE.txt": "/keralasamajam-hamburg/static/js/2.77c9611a.chunk.js.LICENSE.txt",
+    "static/media/ksh.png": "/keralasamajam-hamburg/static/media/ksh.b95d8e30.png",
+    "static/media/news-announcement.jpg": "/keralasamajam-hamburg/static/media/news-announcement.6117f73b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bc2e92a.js",
-    "static/js/2.0c169f85.chunk.js",
+    "static/js/runtime-main.8c6a49b9.js",
+    "static/js/2.77c9611a.chunk.js",
     "static/css/main.e391308d.chunk.css",
-    "static/js/main.57afcb23.chunk.js"
+    "static/js/main.a9149c62.chunk.js"
   ]
 }
