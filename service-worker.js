@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/keralasamajam-hamburg/precache-manifest.b592012093d44b6caea553482a9c1a5f.js"
+  "/keralasamajam-hamburg/precache-manifest.a9d8a1a3736d35c3498b39c7a7d2f58a.js"
 );
 
 self.addEventListener('message', (event) => {

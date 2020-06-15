@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caf9b45172a2aff534e361d6a25d57f2",
+    "revision": "2eb4d615138b3df8ca8f119a8cf46211",
     "url": "/keralasamajam-hamburg/index.html"
   },
   {
