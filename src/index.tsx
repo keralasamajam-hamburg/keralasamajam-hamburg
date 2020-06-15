@@ -6,13 +6,16 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { register } from './serviceWorker';
 import { ConfigProvider } from 'antd';
 import { HelmetProvider } from 'react-helmet-async';
+import { FacebookProvider } from 'react-facebook';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <ConfigProvider componentSize="large">
         <HelmetProvider>
-          <App />
+          <FacebookProvider appId="258983288724950">
+            <App />
+          </FacebookProvider>
         </HelmetProvider>
       </ConfigProvider>
     </Router>

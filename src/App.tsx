@@ -9,7 +9,7 @@ import Content from './pages/Content/Content';
 
 const App: React.FC = () => {
   return (
-    <div className={'mainPage'}>
+    <div className={'main-page'}>
       <Header />
       <Navbar />
       <Content />
