@@ -2,7 +2,7 @@
   "name": "kerala-samajam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://simis22.github.io/kerala-samajam/",
+  "homepage": "https://keralasamajam-hamburg.github.io/kerala-samajam/",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@testing-library/jest-dom": "^4.2.4",
