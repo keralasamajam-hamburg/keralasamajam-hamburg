@@ -1,5 +1,6 @@
 import { Divider } from 'antd';
 import React from 'react';
+import { Comments, Like } from 'react-facebook';
 import { useParams } from 'react-router-dom';
 import RichText from '../../components/RichText/RichText';
 import Spinner from '../../components/Spinner/Spinner';
@@ -26,10 +27,7 @@ const NewsContent: React.FC = () => {
       <Helmet>
         <title>{newsDetailData.news?.headline} - Kerala Samajam Hamburg</title>
         <meta property="og:title" content={`${newsDetailData.news?.headline} - Kerala Samajam Hamburg`} />
-        <meta
-          name="description"
-          content={"Kerala Samajam Hamburg: " + newsDetailData.news?.headline}
-        />
+        <meta name="description" content={'Kerala Samajam Hamburg: ' + newsDetailData.news?.headline} />
       </Helmet>
       <div className="header">
         <Divider>
@@ -39,6 +37,10 @@ const NewsContent: React.FC = () => {
       </div>
       <RichText data={newsDetailData.news?.content} />
 
+      <div className="fb">
+        <Like href={window.location.href} colorScheme="dark" showFaces share />
+        <Comments width="100%" href={window.location.href} />
+      </div>
     </div>
   );
 };

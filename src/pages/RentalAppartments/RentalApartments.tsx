@@ -2,6 +2,7 @@ import React from 'react';
 import DynamicContent from '../../components/DynamicContent/DynamicContent';
 import { useLayout } from '../../contentful/useLayout';
 import { Card } from 'antd';
+import { Comments, Like } from 'react-facebook';
 import { useRentalApartments } from '../../contentful/useRentalApartments';
 import './RentalApartments.scss';
 import { Helmet } from 'react-helmet-async';
@@ -26,6 +27,10 @@ const RentalApartments: React.FC = () => {
             </Card>
           );
         })}
+        <div className="fb">
+          <Like href={window.location.href} colorScheme="dark" showFaces share />
+          <Comments width="100%" href={window.location.href} />
+        </div>
       </div>
     </>
   );

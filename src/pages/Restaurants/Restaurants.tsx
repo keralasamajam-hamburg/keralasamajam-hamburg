@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRestaurants } from '../../contentful/useRestaurants';
 import { Divider, Card } from 'antd';
+import { Comments, Like } from 'react-facebook';
 import DynamicContent from '../../components/DynamicContent/DynamicContent';
 import { useLayout } from '../../contentful/useLayout';
 import './Restaurants.scss';
@@ -30,6 +31,10 @@ const Restaurants: React.FC = () => {
             </Card>
           );
         })}
+        <div className="fb">
+          <Like href={window.location.href} colorScheme="dark" showFaces share />
+          <Comments width="100%" href={window.location.href} />
+        </div>
       </div>
     </>
   );
