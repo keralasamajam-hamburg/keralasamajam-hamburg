@@ -1,7 +1,7 @@
 {
   "name": "kerala-samajam",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://keralasamajam-hamburg.com",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
