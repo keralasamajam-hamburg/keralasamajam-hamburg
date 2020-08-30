@@ -21,6 +21,7 @@
     "contentful": "^7.14.4",
     "craco-less": "^1.17.0",
     "gh-pages": "^3.0.0",
+    "lazysizes": "^5.2.2",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
