@@ -29,6 +29,7 @@
     "react-facebook": "^8.1.4",
     "react-helmet-async": "^1.0.6",
     "react-pdf": "^4.2.0",
+    "react-player": "^2.8.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
