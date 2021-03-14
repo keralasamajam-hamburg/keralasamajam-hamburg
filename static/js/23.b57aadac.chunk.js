@@ -1,2 +1,0 @@
-(this["webpackJsonpkerala-samajam"]=this["webpackJsonpkerala-samajam"]||[]).push([[23],{504:function(e,a,t){},536:function(e,a,t){"use strict";t.r(a);var r=t(542),s=t(293),n=t(0),i=t.n(n),c=t(41);t(504);a.default=function(){return i.a.createElement("div",{className:"wrapper"},i.a.createElement(r.a,{status:"404",title:"404",subTitle:"Sorry, the page you visited does not exist.",extra:i.a.createElement(c.b,{to:"/"},i.a.createElement(s.a,{type:"primary"},"Back Home"))}))}}}]);
-//# sourceMappingURL=23.b57aadac.chunk.js.map
