@@ -1,2 +1,0 @@
-.wrapper{display:flex;width:100%;justify-content:center;margin-top:60px;margin-bottom:60px;-webkit-animation:slideUp .7s ease-in-out forwards;animation:slideUp .7s ease-in-out forwards}@media (min-width:768px){.wrapper{width:65%;margin-left:auto;margin-right:auto}}@-webkit-keyframes slideUp{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes slideUp{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-/*# sourceMappingURL=23.cea34690.chunk.css.map */
